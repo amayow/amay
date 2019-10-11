@@ -1,0 +1,1695 @@
+<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pasti Pergi</title>
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Lets do something awesome">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Lets do something awesome">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#2F3BA2">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!-- <link rel="canonical" href="http://www.example.com/"> -->
+
+    <link rel="stylesheet" href="styles/plugins.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+</head>
+<body>
+<!-- Header -->
+<header id="#header">
+  <div class="top-bar">
+    <div class="container">
+      <div class="logo">
+        <!-- <img src=""/> -->
+        <h2 style="color:#fff; margin:0;">logo</h2>
+      </div>
+      <div class="top-menu">
+        <ul>
+          <li>
+            <a href="#">
+              Promo
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Booking
+            </a>            
+          </li>
+          <li>
+            <select class="top-select">
+              <option value="">English</option> 
+              <option>Indonesia</option>
+            </select>
+          </li>
+          <li>
+            <a href="#">
+              Login
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-header">
+    <div class="container">
+      <ul>
+        <li>
+          <a href="#">
+            <span class="icon-menu icon-flight"></span>
+            Flight
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon-menu icon-hotel"></span>            
+            Hotel
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon-menu icon-train"></span>            
+            Train
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon-menu icon-bus"></span>            
+            Bus
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon-menu icon-ship"></span>            
+            Ship
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon-menu icon-tours"></span>
+            Tours & Activities
+          </a>
+        </li>
+      </ul> 
+      <div class="visible-xs pull-right menu-toggle">
+        <i class="fa fa-bars"></i>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="flight">
+
+  <div class="masthead">
+    <div class="masthead-image" style="background-image: url('images/img_for_home/img-bandung.png')">
+    </div>    
+  </div> 
+
+  <div class="search-wrapper">
+    <div class="container">
+      <div class="box-wrapper">
+        <div class="row">
+          <h1 class="wrapper-title">
+            Find your Bus
+          </h1>
+        </div>
+        <div>
+          <form class="form-wrapper">
+            <div class="row">
+              <div class="form-group col-sm-2 col-xs-12">
+                <select class="passenger-wrapper">
+                  <option value="">1 Passenger</option> 
+                  <option>2 Passenger</option>
+                  <option>3 Passenger</option>
+                  <option>4 Passenger</option>
+                </select>
+              </div>
+              <div class="form-group col-sm-2 col-xs-12">
+                <select class="passenger-wrapper">
+                  <option value="">Economy</option> 
+                  <option>Economy</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col-sm-4 col-xs-6">
+                <label>
+                  From:
+                </label>
+                <select class="city-wrapper">
+                  <option value="">Jakarta (All Terminals)</option>
+                  <option>Bandung (All Terminals)</option>
+                </select>
+              </div>
+              <div class="form-group col-sm-4 col-xs-6">
+                <label>
+                  To:
+                </label>
+                <select class="city-wrapper">
+                  <option value="">Jakarta (All Terminals)</option>
+                  <option>Bandung (All Terminals)</option>
+                </select>
+              </div>
+              <div class="form-group col-sm-2 col-xs-6">
+                <label>
+                  Departure:
+                </label>
+                <select class="city-wrapper form-control">
+                  <option value="">Jakarta</option>
+                  <option>Bandung</option>
+                </select>
+              </div>
+              <div class="form-group col-sm-2 col-xs-6">
+                <label>
+                  Return:
+                </label>
+                <select class="city-wrapper form-control">
+                  <option value="">Jakarta</option>
+                  <option>Bandung</option>
+                </select>
+              </div>
+              <div class="row text-center">
+                  <button type="submit" class="btn btn-wrapper">Search Ticket</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="best-offers">
+    <div class="container">
+      <div class="title-section">
+        <h2>
+          Best Buses
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-xs-6">
+          <div class="offer-city" style="background-image: url('images/img_for_home/img-manado.png')">
+            <div class="offer-overlay">
+              <div class="box-title">
+                <div class="box-caption">
+                  Bus to
+                </div>
+                <div class="box-city">
+                  Bandung
+                </div>
+                <div class="box-start">
+                  Start From
+                </div>                  
+                <div class="box-price">
+                  idr 200.000
+                </div>
+              </div>
+              <div class="box-list">
+                <div class="box-caption">
+                  From
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <div class="offer-city" style="background-image: url('images/img_for_home/img-manado.png')">
+            <div class="offer-overlay">
+              <div class="box-title">
+                <div class="box-caption">
+                  Bus to
+                </div>
+                <div class="box-city">
+                  Bandung
+                </div>
+                <div class="box-start">
+                  Start From
+                </div>                  
+                <div class="box-price">
+                  idr 200.000
+                </div>
+              </div>
+              <div class="box-list">
+                <div class="box-caption">
+                  From
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <div class="offer-city" style="background-image: url('images/img_for_home/img-manado.png')">
+            <div class="offer-overlay">
+              <div class="box-title">
+                <div class="box-caption">
+                  Bus to
+                </div>
+                <div class="box-city">
+                  Bandung
+                </div>
+                <div class="box-start">
+                  Start From
+                </div>                  
+                <div class="box-price">
+                  idr 200.000
+                </div>
+              </div>
+              <div class="box-list">
+                <div class="box-caption">
+                  From
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <div class="offer-city" style="background-image: url('images/img_for_home/img-manado.png')">
+            <div class="offer-overlay">
+              <div class="box-title">
+                <div class="box-caption">
+                  Bus to
+                </div>
+                <div class="box-city">
+                  Bandung
+                </div>
+                <div class="box-start">
+                  Start From
+                </div>                  
+                <div class="box-price">
+                  idr 200.000
+                </div>
+              </div>
+              <div class="box-list">
+                <div class="box-caption">
+                  From
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <div class="offer-city" style="background-image: url('images/img_for_home/img-manado.png')">
+            <div class="offer-overlay">
+              <div class="box-title">
+                <div class="box-caption">
+                  Bus to
+                </div>
+                <div class="box-city">
+                  Bandung
+                </div>
+                <div class="box-start">
+                  Start From
+                </div>                  
+                <div class="box-price">
+                  idr 200.000
+                </div>
+              </div>
+              <div class="box-list">
+                <div class="box-caption">
+                  From
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <div class="offer-city" style="background-image: url('images/img_for_home/img-manado.png')">
+            <div class="offer-overlay">
+              <div class="box-title">
+                <div class="box-caption">
+                  Bus to
+                </div>
+                <div class="box-city">
+                  Bandung
+                </div>
+                <div class="box-start">
+                  Start From
+                </div>                  
+                <div class="box-price">
+                  idr 200.000
+                </div>
+              </div>
+              <div class="box-list">
+                <div class="box-caption">
+                  From
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <div class="offer-city" style="background-image: url('images/img_for_home/img-manado.png')">
+            <div class="offer-overlay">
+              <div class="box-title">
+                <div class="box-caption">
+                  Bus to
+                </div>
+                <div class="box-city">
+                  Bandung
+                </div>
+                <div class="box-start">
+                  Start From
+                </div>                  
+                <div class="box-price">
+                  idr 200.000
+                </div>
+              </div>
+              <div class="box-list">
+                <div class="box-caption">
+                  From
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <div class="offer-city" style="background-image: url('images/img_for_home/img-manado.png')">
+            <div class="offer-overlay">
+              <div class="box-title">
+                <div class="box-caption">
+                  Bus to
+                </div>
+                <div class="box-city">
+                  Bandung
+                </div>
+                <div class="box-start">
+                  Start From
+                </div>                  
+                <div class="box-price">
+                  idr 200.000
+                </div>
+              </div>
+              <div class="box-list">
+                <div class="box-caption">
+                  From
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+                <div class="list-caption">
+                  <div class="list-from">
+                    Lombok
+                  </div>
+                  <div class="list-price">
+                    idr 300.000
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="banner-footer">
+    <div class="container">
+      <div class="row">
+        <form class="form-subscribe" action="">
+          <div class="form-group">
+            <label class="label-subscribe col-sm-5 col-xs-12">
+              Subscribe to our newsletter and be the first to know about Pastipergi's Latest Promo
+            </label>
+            <div class="col-sm-5 col-xs-6 input-subscribe">
+                <input type="text" name="newsletter" placeholder="enter your email address" class="form-control" required>
+            </div>
+            <div class="col-sm-2 col-xs-6 button-subscribe">
+                <button class="btn btn-submit" type="submit">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="tab-footer">
+    <div class="container">
+      <div class="title">
+        <h2>
+          popular choice
+        </h2>
+      </div>
+      <div class="col-md-2 col-xs-3">
+        <ul class="nav nav-pills nav-stacked">
+          <li class="active"><a href="#menu3" data-toggle="pill">Flight Routes</a></li>
+          <li><a href="#menu1" data-toggle="pill">Hotel Destination</a></li>
+          <li><a href="#menu2" data-toggle="pill">Train Routes</a></li>
+          <li><a href="#menu4" data-toggle="pill">Bus Routes</a></li>
+          <li><a href="#menu5" data-toggle="pill">Ship Routes</a></li>
+          <li><a href="#menu6" data-toggle="pill">Point of Interest</a></li>
+        </ul>
+      </div>
+      <div class="col-md-10 col-xs-9">
+        <div class="tab-content">
+          <div id="menu3" class="tab-pane fade in active">
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <a href="#">
+                    Bus to Bali
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Lombok
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Bima
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Maluku
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Jogja
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Bandung
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <a href="#">
+                    Bus to Bali
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Lombok
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Bima
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Maluku
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Jogja
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Bandung
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <a href="#">
+                    Bus to Bali
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Lombok
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Bima
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Maluku
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Jogja
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Bandung
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <a href="#">
+                    Bus to Bali
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Lombok
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Bima
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Maluku
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Jogja
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Bandung
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="menu1" class="tab-pane fade in">
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <a href="#">
+                    Stay to Bali
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Stay to Lombok
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Stay to Bima
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Stay to Maluku
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Stay to Jogja
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Stay to Bandung
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <a href="#">
+                    Stay to Bali
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Stay to Lombok
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Stay to Bima
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Stay to Maluku
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Stay to Jogja
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Stay to Bandung
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <a href="#">
+                    Stay to Bali
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Stay to Lombok
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Stay to Bima
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Stay to Maluku
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Stay to Jogja
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Stay to Bandung
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <a href="#">
+                    Stay to Bali
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Stay to Lombok
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Stay to Bima
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Stay to Maluku
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Stay to Jogja
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Stay to Bandung
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="menu2" class="tab-pane fade in">
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <a href="#">
+                    Train to Bali
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Train to Lombok
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Train to Bima
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Train to Maluku
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Train to Jogja
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Train to Bandung
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <a href="#">
+                    Train to Bali
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Train to Lombok
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Train to Bima
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Train to Maluku
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Train to Jogja
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Train to Bandung
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <a href="#">
+                    Train to Bali
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Train to Lombok
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Train to Bima
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Train to Maluku
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Train to Jogja
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Train to Bandung
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <a href="#">
+                    Train to Bali
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Train to Lombok
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Train to Bima
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Train to Maluku
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Train to Jogja
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Train to Bandung
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="menu4" class="tab-pane fade in">
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <a href="#">
+                    Bus to Bali
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Lombok
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Bima
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Maluku
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Jogja
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Bandung
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <a href="#">
+                    Bus to Bali
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Lombok
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Bima
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Maluku
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Jogja
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Bandung
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <a href="#">
+                    Bus to Bali
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Lombok
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Bima
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Maluku
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Jogja
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Bandung
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <a href="#">
+                    Bus to Bali
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Lombok
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Bima
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Maluku
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Jogja
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Bus to Bandung
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="menu5" class="tab-pane fade in">
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <a href="#">
+                    Ship to Bali
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Ship to Lombok
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Ship to Bima
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Ship to Maluku
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Ship to Jogja
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Ship to Bandung
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <a href="#">
+                    Ship to Bali
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Ship to Lombok
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Ship to Bima
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Ship to Maluku
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Ship to Jogja
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Ship to Bandung
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <a href="#">
+                    Ship to Bali
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Ship to Lombok
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Ship to Bima
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Ship to Maluku
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Ship to Jogja
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Ship to Bandung
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <a href="#">
+                    Ship to Bali
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Ship to Lombok
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Ship to Bima
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Ship to Maluku
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Ship to Jogja
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Ship to Bandung
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="menu6" class="tab-pane fade in">
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <a href="#">
+                    Activities In Bali
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Activities In Lombok
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Activities In Bima
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Activities In Maluku
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Activities In Jogja
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Activities In Bandung
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <a href="#">
+                    Activities In Bali
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Activities In Lombok
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Activities In Bima
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Activities In Maluku
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Activities In Jogja
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Activities In Bandung
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <a href="#">
+                    Activities In Bali
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Activities In Lombok
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Activities In Bima
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Activities In Maluku
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Activities In Jogja
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Activities In Bandung
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <a href="#">
+                    Activities In Bali
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Activities In Lombok
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Activities In Bima
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Activities In Maluku
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Activities In Jogja
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Activities In Bandung
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="menu-footer">
+    <div class="container">
+      <div class="col-md-8 col-xs-12 padding-0">
+        <div class="col-md-3 col-xs-6">
+          <h5>
+            About
+          </h5>
+          <ul class="menu-list">
+            <li>
+              <a href="#">Careers</a>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+            <li>
+              <a href="#">Register Your Travel</a>
+            </li>
+            <li>  
+              <a href="#">Register Your Hotel</a>
+            </li>
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <h5>
+            Help
+          </h5>
+          <ul class="menu-list">
+            <li>
+              <a href="#">How to Book</a>
+            </li>
+            <li>
+              <a href="#">FAQ</a>
+            </li>
+            <li>
+              <a href="#">Privacy and Policy</a>
+            </li>
+            <li>  
+              <a href="#">Terms and Conditions</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <h5>
+            Follow Us
+          </h5>
+          <div class="social-link">
+            <a href="#">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a href="#">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <h5>Download Apps</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-footer">
+    <div class="container">
+      <div class="copyright">
+        Copyright &copy; 2017 Pastipergi
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Scripts -->
+<script src="plugins/jquery-dist/jquery.min.js"></script>
+<script src="plugins/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="plugins/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+<script src="plugins/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+<script src="plugins/moment/min/moment.min.js"></script>
+<script src="plugins/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+
+<script src="scripts/app.js"></script>
+
+</body>
+</html>
